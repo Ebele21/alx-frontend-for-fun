@@ -1,11 +1,5 @@
 /* 103-sort_strings.scss */
-/* Sort! */
 
-// Import the sorting list
-@import '103-sort_list';
-
-// Sort the list using the sort() function
-$list_to_sort: sort($list_to_sort);
-
-// Print the sorted list in the debug output
-@debug "Sorted list: #{$list_to_sort}";
+$list_to_sort: john, anna, zoe, kim, felicia, carrie;
+$sorted_list: sort($list_to_sort);
+@debug "Sorted List: #{$sorted_list}";
