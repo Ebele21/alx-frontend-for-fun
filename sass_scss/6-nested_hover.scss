@@ -4,10 +4,12 @@ Task: Define styles for button tags:
 - Change text color to #00FF00 when the user hovers over button tags
 You must use nested declarations
 */
-button {
+body {
+  button {
   color: #FF0000;
 
   &:hover {
     color: #00FF00;
-  }
+   }
+ }
 }
